@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0047AB"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".Emergency_Calls">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="32dp"
+        android:text="@string/ImportantView"
+        android:textColor="@color/MyRed"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/callPoliceButton"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="#9b59b6"
+        android:text="@string/Police"
+        android:textColor="#ffffff"
+        android:textSize="18sp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp" />
+
+    <Button
+        android:id="@+id/callDoctorButton"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="#3498db"
+        android:text="@string/Doctor"
+        android:textColor="#ffffff"
+        android:textSize="18sp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp" />
+
+    <Button
+        android:id="@+id/firstAidTipButton"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="#f39c12"
+        android:text="@string/First_Aid"
+        android:textColor="#ffffff"
+        android:textSize="18sp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp" />
+
+    <Button
+        android:id="@+id/callAmbulanceButton"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="#27ae60"
+        android:text="@string/Ambulance"
+        android:textColor="#ffffff"
+        android:textSize="18sp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp" />
+
+    <Button
+        android:id="@+id/weatherNewsButton"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="#e74c3c"
+        android:text="@string/Weather_Button"
+        android:textColor="#ffffff"
+        android:textSize="18sp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp" />
+
+    <Button
+        android:id="@+id/callFireButton"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="#9b59b6"
+        android:text="@string/Fire"
+        android:textColor="#ffffff"
+        android:textSize="18sp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp" />
+
+    <Button
+        android:id="@+id/medicalWebButton"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="#3498db"
+        android:text="@string/Medical"
+        android:textColor="#ffffff"
+        android:textSize="18sp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp" />
+</LinearLayout>
