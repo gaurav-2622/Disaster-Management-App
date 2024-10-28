@@ -23,7 +23,7 @@ class Emergency_Calls : AppCompatActivity() {
 
         // Click listener for calling the fire department
         callFireButton.setOnClickListener {
-            val number = "1111"
+            val number = "101"
             val uri = Uri.parse(String.format("tel:$number"))
             val intent = Intent()
             intent.action = Intent.ACTION_DIAL
@@ -33,7 +33,7 @@ class Emergency_Calls : AppCompatActivity() {
 
         // Click listener for calling the police
         callPoliceButton.setOnClickListener {
-            val number = "1112"
+            val number = "100"
             val uri = Uri.parse(String.format("tel:$number"))
             val intent = Intent()
             intent.action = Intent.ACTION_DIAL
@@ -43,7 +43,7 @@ class Emergency_Calls : AppCompatActivity() {
 
         // Click listener for calling an ambulance
         callAmbulanceButton.setOnClickListener {
-            val number = "1113"
+            val number = "102"
             val uri = Uri.parse(String.format("tel:$number"))
             val intent = Intent()
             intent.action = Intent.ACTION_DIAL
@@ -53,7 +53,7 @@ class Emergency_Calls : AppCompatActivity() {
 
         // Click listener for calling a doctor
         callDoctorButton.setOnClickListener {
-            val number = "1114"
+            val number = "080105 55444"
             val uri = Uri.parse(String.format("tel:$number"))
             val intent = Intent()
             intent.action = Intent.ACTION_DIAL
